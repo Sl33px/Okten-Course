@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW_2.1</title>
+<!--
+1. Створи веб-сторінку за макетом: розмісти 5 блоків однакового розміру та будь якого кольору.
+Всередині кожного блоку додай назву шрифта, та застилізуй текст зазначеним шрифтом
+('Rubik Pixels','Sedgwick Ave Display', 'Dancing Script',  'Fjalla One', 'Indie Flower')
+-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .container>div {
+            height: 240px;
+            width: 240px;
+            background-color: #FFE3C4;
+            font-size: 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box1 {
+            font-family: "Rubik Pixels", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .box2 {
+            font-family: "Sedgwick Ave Display", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .box3 {
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .box4 {
+            font-family: "Fjalla One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .box5 {
+            font-family: "Indie Flower", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box1"><span>Rubik Pixels</span></div>
+    <div class="box2"><span>Sedgwick Ave Display</span></div>
+    <div class="box3"><span>Dancing Script</span></div>
+    <div class="box4"><span>Fjalla One</span></div>
+    <div class="box5"><span>Indie Flower</span></div>
+</div>
+</body>
+</html>

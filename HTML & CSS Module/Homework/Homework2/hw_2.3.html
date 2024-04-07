@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW_2.3</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .widgets-top,
+        .widgets-bottom {
+            background-color: #216ABB;
+            margin: 10px 20px;
+            padding: 20px 20px;
+            font-size: 20px;
+            color: #B6BFBA;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .widgets-middle {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .widgets-middle>div {
+            background-color: #16457A;
+            margin: 10px 20px;
+            padding: 20px 20px;
+            width: 30%;
+            font-size: 20px;
+            color: #7D91AD;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="widgets-top">Widgets</div>
+        <div class="widgets-middle">
+            <div>Big Widgets</div>
+            <div>Bigger Widgets</div>
+            <div>Huge Widgets</div>
+        </div>
+        <div class="widgets-bottom">Contact</div>
+    </div>
+</body>
+</html>
