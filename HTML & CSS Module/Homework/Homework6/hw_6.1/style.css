@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*styles for desktop platforms*/
+.container {
+    display: grid;
+    grid-template-areas:
+    "link1 link2 link3 link4"
+    "banner banner banner banner"
+    "article1 article1 article2 article2"
+    "article3 article3 article4 article4"
+    "footer footer footer footer";
+    grid-template-rows: 50px 150px 80px 80px 50px;
+    grid-gap: 10px;
+}
+
+.link1,
+.link2,
+.link3,
+.link4,
+.banner,
+.article1,
+.article2,
+.article3,
+.article4,
+footer {
+    border: 1px solid #000;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+.link1 {
+    grid-area: link1;
+}
+
+.link2 {
+    grid-area: link2;
+}
+
+.link3 {
+    grid-area: link3;
+}
+
+.link4 {
+    grid-area: link4;
+}
+
+.banner {
+    grid-area: banner;
+}
+
+.article1 {
+    grid-area: article1;
+}
+
+.article2 {
+    grid-area: article2;
+}
+
+.article3 {
+    grid-area: article3;
+}
+
+.article4 {
+    grid-area: article4;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/*styles for tablet platforms*/
+@media (min-width: 481px) and (max-width: 1024px) {
+    .container {
+        display: grid;
+        grid-template-areas:
+        "link1 link2 link3 link4"
+        "banner banner banner banner"
+        "article1 article2 article3 article4"
+        "footer footer footer footer";
+        grid-template-rows: 30px 150px 150px 30px;
+    }
+}
+
+/*styles for mobile platforms*/
+@media (max-width: 480px) {
+    .container {
+        display: grid;
+        grid-template-areas:
+        "link1"
+        "link2"
+        "link3"
+        "link4"
+        "banner"
+        "article1"
+        "article2"
+        "article3"
+        "article4"
+        "footer";
+        grid-template-rows: 30px 30px 30px 30px 150px 60px 60px 60px 60px 30px;
+    }
+}
