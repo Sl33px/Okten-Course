@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main-div-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .div-container {
+            border: 1px solid #000;
+            border-radius: 5px;
+            width: 200px;
+            text-align: left;
+            padding: 3px;
+            margin:10px;
+        }
+
+        .div-with-number {
+            margin-top: 50px;
+            border: 1px solid #000;
+            width: 100px;
+        }
+
+        #objectContainer {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .object {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ff7c4b;
+            border: 1px solid #000;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<form name="f1">
+    <input type="text" name="surname" placeholder="Surname">
+    <input type="text" name="name" placeholder="Name">
+    <input type="number" name="age" placeholder="Age">
+    <button type="submit">Send</button>
+</form>
+
+<div id="objectContainer"></div>
+<button id="prevButton">Prev</button>
+<button id="nextButton">Next</button>
+
+<div>
+    <input type="number" name="kg" placeholder="Kilogram" id="kgInput">
+    <input type="number" name="pound" placeholder="Pound" id="poundInput">
+</div>
+
+<div id="text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi incidunt iusto, nam perspiciatis saepe ullam?</p>
+    <button id="delete-text-btn">Delete text</button>
+</div>
+
+<div>
+    <label for="ageInput">Введіть свій вік:</label>
+    <input type="number" id="ageInput" name="ageInput" min="0" required>
+    <button id="submitButton">Підтвердити</button>
+    <p id="message"></p>
+</div>
+
+<div>
+    <label for="rowsInput">Кількість рядків:</label>
+    <input type="number" id="rowsInput" name="rowsInput" min="1" required>
+    <br>
+    <label for="cellsInput">Кількість ячейок у рядку:</label>
+    <input type="number" id="cellsInput" name="cellsInput" min="1" required>
+    <br>
+    <label for="contentInput">Вміст ячейок:</label>
+    <input type="text" id="contentInput" name="contentInput" required>
+    <br>
+    <button id="createTableButton">Створити таблицю</button>
+    <br><br>
+    <div id="tableContainer"></div>
+</div>
+
+<div id="priceBlock">100грн</div>
+
+<script src="./script.js"></script>
+</body>
+</html>

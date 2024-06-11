@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Sessions Page</h1>
+    <div id="sessions-container"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const sessions = JSON.parse(localStorage.getItem('sessions')) || [];
+            const sessionsContainer = document.getElementById('sessions-container');
+            sessions.forEach((session, index) => {
+                const sessionElement = document.createElement('div');
+                sessionElement.textContent = `Session ${index + 1}: ${session}`;
+                sessionsContainer.appendChild(sessionElement);
+            });
+        });
+    </script>
+</body>
+</html>
