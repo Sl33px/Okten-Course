@@ -50,8 +50,8 @@ const foo = async () => {
     // // await fsPromises.unlink(pathToFile) // delete file
     // // await fsPromises.rename(pathToFile, path.join(__dirname, 'new-file.txt'))
     // await fsPromises.copyFile(pathToFile, path.join(__dirname, 'new-folder', 'new-file.txt'))
-    // const  stat = await fsPromises.stat(pathToFile)
-    // console.log(stat.isDirectory())
+    const  stat = await fsPromises.stat(pathToFile)
+    console.log(stat.isDirectory())
 
     // Streams
     // const pathToFile = path.join(__dirname, 'посмотреть аниме.txt')
@@ -80,14 +80,14 @@ const foo = async () => {
     // emitter.emit('event', 555)
 
     // OS
-    console.log(os.arch());
-    console.log(os.cpus());
-    console.log(os.totalmem() / 1024 / 1024 / 1024, 'gb');
-    console.log(os.freemem() / 1024 / 1024 / 1024, 'gb');
-    console.log(os.homedir());
-    console.log(os.hostname());
-    console.log(os.platform());
-    console.log(os.userInfo());
+    // console.log(os.arch());
+    // console.log(os.cpus());
+    // console.log(os.totalmem() / 1024 / 1024 / 1024, 'gb');
+    // console.log(os.freemem() / 1024 / 1024 / 1024, 'gb');
+    // console.log(os.homedir());
+    // console.log(os.hostname());
+    // console.log(os.platform());
+    // console.log(os.userInfo());
 }
 
 void foo()
