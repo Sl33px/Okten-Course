@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d565dbb-05ab-45e1-bba9-ef0f66a344d8" name="Changes" comment="add hw10/11, lesson10/11 and mini project">
+      <change afterPath="$PROJECT_DIR$/Database/MongoDB/Lessons/Lesson1/lesson1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS &amp; TS/Lessons/TS/Homework1-4/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS &amp; TS/Lessons/TS/Homework1-4/1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS &amp; TS/Lessons/TS/Homework1-4/1/script.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS &amp; TS/Lessons/TS/Lesson1/script.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS &amp; TS/Lessons/TS/Lesson2/script.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sl33px&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sl33px/Okten-Course.git&quot;,
+    &quot;accountId&quot;: &quot;0182d178-152a-4ad3-a6b8-8ee6f1bc719b&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2egQD0mfrlY8sVSy6zkN97NWnxh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.preview.js.executor": "Run",
+    "Node.js.script.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Dima/Documents/Okten Course/Okten-Course/Database/MongoDB",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "database.data.views.appearance",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "mongo"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dima\Documents\Okten Course\Okten-Course\Database\MongoDB" />
+      <recent name="C:\Users\Dima\Documents\Okten Course\Okten-Course\JS &amp; TS\Lessons\TS\Homework1-4\1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dima\Documents\Okten Course\Okten-Course\JS &amp; TS\Preview\API" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Okten-Course" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Okten-Course" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS &amp; TS/Lessons/Lesson6/script.js" working-dir="$PROJECT_DIR$/JS &amp; TS/Lessons/Lesson6">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d565dbb-05ab-45e1-bba9-ef0f66a344d8" name="Changes" comment="" />
+      <created>1712323619205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712323619205</updated>
+      <workItem from="1712323620238" duration="882000" />
+      <workItem from="1712341690396" duration="3000" />
+      <workItem from="1712394622529" duration="3094000" />
+      <workItem from="1712397752813" duration="913000" />
+      <workItem from="1712405225475" duration="422000" />
+      <workItem from="1712405658131" duration="42000" />
+      <workItem from="1713608592337" duration="67000" />
+      <workItem from="1714407401382" duration="84000" />
+      <workItem from="1714407561704" duration="141000" />
+      <workItem from="1714407714212" duration="700000" />
+      <workItem from="1714408460101" duration="41000" />
+      <workItem from="1714408519932" duration="723000" />
+      <workItem from="1714413327249" duration="3477000" />
+      <workItem from="1714418038119" duration="7000" />
+      <workItem from="1714418052278" duration="76000" />
+      <workItem from="1714418145324" duration="30000" />
+      <workItem from="1714418185592" duration="101000" />
+      <workItem from="1714418294641" duration="41000" />
+      <workItem from="1714418352481" duration="318000" />
+      <workItem from="1714472259061" duration="346000" />
+      <workItem from="1714494286042" duration="9000" />
+      <workItem from="1714725041049" duration="8000" />
+      <workItem from="1714732186601" duration="1707000" />
+      <workItem from="1714739846739" duration="5835000" />
+      <workItem from="1714746010090" duration="6474000" />
+      <workItem from="1714996707901" duration="21000" />
+      <workItem from="1715115362889" duration="3000" />
+      <workItem from="1715333468716" duration="777000" />
+      <workItem from="1715337999778" duration="6086000" />
+      <workItem from="1715424589135" duration="4622000" />
+      <workItem from="1715515689295" duration="3000" />
+      <workItem from="1715515750889" duration="2000" />
+      <workItem from="1715701022888" duration="6586000" />
+      <workItem from="1715764651925" duration="109000" />
+      <workItem from="1715953109091" duration="3182000" />
+      <workItem from="1716034253475" duration="3014000" />
+      <workItem from="1716043617592" duration="5194000" />
+      <workItem from="1716049256730" duration="22000" />
+      <workItem from="1716204856474" duration="1737000" />
+      <workItem from="1716210571592" duration="13000" />
+      <workItem from="1716228899544" duration="4000" />
+      <workItem from="1716356317005" duration="625000" />
+      <workItem from="1717000404986" duration="5165000" />
+      <workItem from="1717057484775" duration="28000" />
+      <workItem from="1717058248673" duration="1833000" />
+      <workItem from="1717060236271" duration="120000" />
+      <workItem from="1717060419964" duration="9602000" />
+      <workItem from="1717072735313" duration="597000" />
+      <workItem from="1717182800487" duration="2000" />
+      <workItem from="1717198820748" duration="6894000" />
+      <workItem from="1717232186102" duration="5041000" />
+      <workItem from="1717251463042" duration="4000" />
+      <workItem from="1717279818772" duration="2000" />
+      <workItem from="1717395151251" duration="6267000" />
+      <workItem from="1717415939744" duration="6429000" />
+      <workItem from="1717445242433" duration="5437000" />
+      <workItem from="1717480661614" duration="821000" />
+      <workItem from="1717495199255" duration="4471000" />
+      <workItem from="1717499833998" duration="696000" />
+      <workItem from="1717599225928" duration="1158000" />
+      <workItem from="1717664676148" duration="4329000" />
+      <workItem from="1717675038872" duration="755000" />
+      <workItem from="1717679718127" duration="2724000" />
+      <workItem from="1717769175746" duration="351000" />
+      <workItem from="1717769542944" duration="773000" />
+      <workItem from="1717786226385" duration="208000" />
+      <workItem from="1717846955099" duration="2641000" />
+      <workItem from="1717949571481" duration="5737000" />
+      <workItem from="1718007751226" duration="9764000" />
+      <workItem from="1718024323718" duration="1237000" />
+      <workItem from="1718091049198" duration="8811000" />
+      <workItem from="1718108391179" duration="8716000" />
+      <workItem from="1718134400791" duration="635000" />
+      <workItem from="1718187719456" duration="3872000" />
+      <workItem from="1718203877947" duration="1999000" />
+      <workItem from="1718235344846" duration="424000" />
+      <workItem from="1718235781443" duration="1153000" />
+      <workItem from="1718286070196" duration="2000" />
+      <workItem from="1718435571570" duration="50000" />
+      <workItem from="1718726755016" duration="49000" />
+      <workItem from="1718792094714" duration="1136000" />
+      <workItem from="1718899691755" duration="3000" />
+      <workItem from="1719073368049" duration="140000" />
+      <workItem from="1720637962450" duration="517000" />
+      <workItem from="1720854673295" duration="3000" />
+      <workItem from="1720967782881" duration="288000" />
+      <workItem from="1721652984448" duration="28000" />
+      <workItem from="1721725335164" duration="1408000" />
+      <workItem from="1721993752299" duration="408000" />
+      <workItem from="1721998322751" duration="2638000" />
+      <workItem from="1722029449882" duration="596000" />
+      <workItem from="1722162915797" duration="2925000" />
+      <workItem from="1722854896244" duration="2000" />
+      <workItem from="1723296059333" duration="692000" />
+      <workItem from="1723586674181" duration="1984000" />
+      <workItem from="1723730423164" duration="8919000" />
+      <workItem from="1723806252767" duration="8150000" />
+      <workItem from="1723818463159" duration="8478000" />
+      <workItem from="1723847138488" duration="6206000" />
+    </task>
+    <task id="LOCAL-00001" summary="Inital commit">
+      <option name="closed" value="true" />
+      <created>1712323998426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712323998426</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Inital commit">
+      <option name="closed" value="true" />
+      <created>1712324394504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712324394504</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Inital commit">
+      <option name="closed" value="true" />
+      <created>1712394851492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712394851492</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add new directory and file">
+      <option name="closed" value="true" />
+      <created>1712394939347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712394939347</updated>
+    </task>
+    <task id="LOCAL-00005" summary="edit index.html in lesson1 directory">
+      <option name="closed" value="true" />
+      <created>1712405408725</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712405408725</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add hw1">
+      <option name="closed" value="true" />
+      <created>1714417971630</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714417971630</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add hw1">
+      <option name="closed" value="true" />
+      <created>1714418497988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714418497988</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add hw2 and lesson2">
+      <option name="closed" value="true" />
+      <created>1714753885664</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714753885664</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add hw3 and lesson3">
+      <option name="closed" value="true" />
+      <created>1715344867694</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715344867694</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add hw4 and 5 and lesson4 and 5">
+      <option name="closed" value="true" />
+      <created>1715764709672</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715764709672</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add hw4 and 5 and lesson4 and 5">
+      <option name="closed" value="true" />
+      <created>1715953195083</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715953195083</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add hw6 and lesson6">
+      <option name="closed" value="true" />
+      <created>1717069245666</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717069245666</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add hw7 and lesson7">
+      <option name="closed" value="true" />
+      <created>1717236633731</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717236633731</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add hw8/9 and lesson8/9">
+      <option name="closed" value="true" />
+      <created>1717499938008</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717499938008</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add hw10/11, lesson10/11 and mini project">
+      <option name="closed" value="true" />
+      <created>1718117183137</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718117183137</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inital commit" />
+    <MESSAGE value="add new directory and file" />
+    <MESSAGE value="edit index.html in lesson1 directory" />
+    <MESSAGE value="add hw1" />
+    <MESSAGE value="add hw2 and lesson2" />
+    <MESSAGE value="add hw3 and lesson3" />
+    <MESSAGE value="add hw4/5 and lesson4/5" />
+    <MESSAGE value="add hw4 and 5 and lesson4 and 5" />
+    <MESSAGE value="add hw6 and lesson6" />
+    <MESSAGE value="add hw7 and lesson7" />
+    <MESSAGE value="add hw8/9 and lesson8/9" />
+    <MESSAGE value="add hw10/11, lesson10/11 and mini project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hw10/11, lesson10/11 and mini project" />
+  </component>
+</project>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@cluster0.awtnh.mongodb.net">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.52">
+    <root id="1">
+      <ServerVersion>7.0.12</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin"/>
+    <schema id="3" parent="1" name="local"/>
+    <schema id="4" parent="1" name="mar-2024">
+      <LastIntrospectionLocalTimestamp>2024-08-16.16:38:27</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="5" parent="1" name="sample_mflix"/>
+    <table id="6" parent="4" name="students"/>
+    <table id="7" parent="4" name="teacher"/>
+    <column id="8" parent="6" name="_id">
+      <DasType>ObjectId|12s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="9" parent="6" name="avgScore">
+      <DasType>Double|8s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="10" parent="6" name="lessons">
+      <DasType>Array|2003s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="11" parent="6" name="name">
+      <DasType>String|12s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="12" parent="6" name="class">
+      <DasType>Int32|4s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="13" parent="6" name="parents">
+      <DasType>list|4999545s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="14" parent="6" name="parents.gender">
+      <DasType>String|12s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="15" parent="6" name="parents.name">
+      <DasType>String|12s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="16" parent="6" name="parents.profession">
+      <DasType>String|12s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="17" parent="7" name="_id">
+      <DasType>ObjectId|12s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="18" parent="7" name="class_curator">
+      <DasType>Int32|4s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="19" parent="7" name="name">
+      <DasType>String|12s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="20" parent="7" name="payment">
+      <DasType>Int32|4s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="21" parent="7" name="lesson">
+      <DasType>String|12s</DasType>
+      <Position>2</Position>
+    </column>
+  </database-model>
+</dataSource>
