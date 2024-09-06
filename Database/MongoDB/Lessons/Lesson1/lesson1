@@ -1,0 +1,144 @@
+use mar-2024
+
+db.users.insertOne({name: 'Max', age: 15})
+
+db.users.find()
+
+db.users.insertOne({carModel: 'BMW', year: 2000})
+
+db.users.find({_id: ObjectId('66bf67e2005f7b20ff1f06bc')})
+
+db.users.find(
+    {gender: 'female', rating: 2},
+    {_id:1, age: 1, name: 1}
+)
+
+db.users.find({gender: 'female', rating: 2})
+
+db.users.find({
+    $and: [
+        {rating: 2},
+        {gender: 'female'}
+    ]
+})
+
+db.users.find({
+    or: [
+        {rating: 2},
+        {gender: 'female'}
+    ]
+})
+
+db.users.find({age:{$in:[12, 15, 20, 25, 30, 18, 16]}})
+db.users.find({age:{$nin:[12, 15, 20, 25, 30, 18, 16]}})
+
+db.users.find({
+    age: {
+        $in: [12, 15, 20, 25, 30, 18, 16]
+    }
+})
+
+db.users.find({
+    age: {
+        $not: {
+            $in: [12, 15, 20, 25, 30, 18, 16]
+        }
+    }
+})
+
+db.users.find({rating:{$gt: 2}})
+db.users.find({rating:{$lt: 3}})
+db.users.find({rating:{$gte: 3}})
+db.users.find({rating:{$lte: 3}})
+db.users.find({rating:{$ne: 3}})
+db.users.find({rating:{$eq: 3}})
+
+// шукає по значенню
+db.users.find({name: 'Kira'})
+// шукає по великій літері
+db.users.find({name: /^A/})
+// шукає по літері а, але не зважаючи на реєстр
+db.users.find({name: /^a/i})
+// шукає по літері, на яку закінчується слово
+db.users.find({name: /a$/})
+// якщо треба пропустити декілька літер
+db.users.find({name: /.{2}t/i})
+// якщо ім'я починажтсья на шось і закінчується на шось
+db.users.find({name: /^k.*a$/i})
+// щоб в слові була якась буква де будь-де
+db.users.find({name: /v/i})
+
+// rating: 1 значить що сортування буде від меньшого до більшого
+db.users.find().sort({rating: 1})
+db.users.find().sort({rating: -1})
+db.users.find().sort({rating: -1, name: -1}).limit(2)
+db.users.find().sort({rating: -1, name: -1}).limit(2).skip(2)
+db.users.find().sort({rating: -1, name: -1}).limit(2).skip(4)
+db.users.find().sort({rating: -1, name: -1}).limit(2).skip(6)
+
+
+db.users.find()
+
+// заміняє/додає поле в об'єкті
+db.users.updateOne(
+    {_id: ObjectId('66bf67e2005f7b20ff1f06ba')},
+    {$set: {asdf: 1}}
+)
+
+// видаляє поле
+db.users.updateOne(
+    {_id: ObjectId('66bf67e2005f7b20ff1f06ba')},
+    {$unset: {asdf: 1}}
+)
+
+db.users.updateMany(
+    {gender: 'male'},
+    {$set: {gender: 'animal'}}
+)
+
+db.users.find({'address.house': {$gt: 25}})
+db.users.find({parents: 'Vitaliy'})
+db.users.find({parents: {$size: 1}})
+db.users.find({parents: {$exists: true}})
+db.users.updateOne(
+    {_id: ObjectId('66bf67e2005f7b20ff1f06ba')},
+    {$push: {studying: 'python'}}
+)
+
+db.users.insertMany([
+    {asd: 'dddd'},
+    {asd: '2'}
+])
+
+db.users.deleteOne({_id: ObjectId('66bf6988005f7b20ff1f06c2')})
+db.users.deleteOne({_id: ObjectId('66bf73e0005f7b20ff1f06c5')})
+db.users.deleteOne({_id: ObjectId('66bf73e0005f7b20ff1f06c6')})
+
+//homework 1
+// 1) Знайти всіх юзерів в кого вік менше за 20
+db.users.find({age: {$lt: 20}})
+// 2) Знайти всіх юзерів в котрих хоча б один з батьків Tamara або Petro
+db.users.find({$or: [{parents: 'Tamara'}, {parents: 'Petro'}]})
+// 3) Знайти всіх юзерів які вивчають js
+db.users.find({studying: 'js'})
+// 4) Знайти всіх юзерів котрі вивчають тільки один предмет и додати їм java
+db.users.updateMany({studying:{$size:1}}, {$push:{studying:'java'}})
+// 5) Знайти всіх юзерів номера будинків яких знаходяться в межах 1-20
+db.users.find({$and: [
+        {'address.house': {$gte: 1}},
+        {'address.house': {$lte: 20}}
+    ]})
+// 6) Знайти всіх юзерів в яких назва вулиці містить пробіл
+db.users.find({'address.street': / /i})
+// 7) Видалити всіх юзерів в котрих немає поля studying
+db.users.deleteMany({studying:null})
+// 8) Знайти всіх юзерів в котрих в ім'я когось с батьків закінчується на 'na'
+db.users.find({parents: /na$/})
+// 9) Всім юзерам котрі не вивчають python додати його
+db.users.updateMany(
+    {studying:{$ne:'python'}},
+    {$push:{studying:'python'}}
+)
+// 10) Посортувати юзерів по рейтингу та по номеру квартири (що то що то, від більшого меншого)
+db.users.find().sort({rating: -1, 'address.house': -1})
+
