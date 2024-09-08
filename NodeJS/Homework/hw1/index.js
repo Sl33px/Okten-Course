@@ -35,10 +35,13 @@ const textArr = [
 ];
 
 const main = async () => {
-    let sentenceIndex = 0; // To keep track of which sentence to use
+    const baseFolder = path.join(__dirname, 'baseFolder');
+    await fsPromises.mkdir(baseFolder, { recursive: true });
+
+    let sentenceIndex = 0;
 
     for (let i = 0; i < 5; i++) {
-        const pathToFolder = path.join(__dirname, `folder${i + 1}`);
+        const pathToFolder = path.join(baseFolder, `folder${i + 1}`);
         await fsPromises.mkdir(pathToFolder, { recursive: true });
 
         for (let j = 0; j < 5; j++) {
@@ -47,16 +50,22 @@ const main = async () => {
                 const content = textArr[sentenceIndex];
                 await fsPromises.writeFile(pathToFile, content);
                 sentenceIndex++;
-
-                const data = await fsPromises.readFile(pathToFile, 'utf-8')
-                const stat = await fsPromises.stat(pathToFolder)
-                console.log('pathToFolder: ', pathToFolder)
-                console.log('pathToFile: ', pathToFile)
-                console.log('file data: ', data)
-                console.log(`folder${i + 1}.txt`, 'is folder -', stat.isDirectory())
-                console.log(`test${j + 1}.txt`, 'is file -', stat.isDirectory())
-                console.log('-------------------')
             }
+        }
+    }
+
+    const baseFolderContent = await fsPromises.readdir(baseFolder, { withFileTypes: true });
+
+    for (let currentFile of baseFolderContent) {
+        const currentFilePath = path.join(baseFolder, currentFile.name)
+        if (currentFile.isDirectory()) {
+            console.log(`${currentFile.name} is a folder.`);
+            const folderContents = await fsPromises.readdir(currentFilePath, { withFileTypes: true });
+            for (const file of folderContents) {
+                console.log(`${file.name} is a file.`);
+            }
+        } else {
+            console.log(`${currentFile.name} is a file.`);
         }
     }
 };
