@@ -50,8 +50,8 @@ const foo = async () => {
     // // await fsPromises.unlink(pathToFile) // delete file
     // // await fsPromises.rename(pathToFile, path.join(__dirname, 'new-file.txt'))
     // await fsPromises.copyFile(pathToFile, path.join(__dirname, 'new-folder', 'new-file.txt'))
-    const  stat = await fsPromises.stat(pathToFile)
-    console.log(stat.isDirectory())
+    // const  stat = await fsPromises.stat(pathToFile)
+    // console.log(stat.isDirectory())
 
     // Streams
     // const pathToFile = path.join(__dirname, 'посмотреть аниме.txt')
